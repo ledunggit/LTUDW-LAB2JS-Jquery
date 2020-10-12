@@ -68,6 +68,10 @@ body {
     font-size: 14px;
 }
 
+.description h2 {
+    text-align: left;
+}
+
 .image img:hover {
     filter: brightness(100%);
     -webkit-filter: brightness(100%);
