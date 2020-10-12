@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#form-register {
+    margin-top: 100px;
+    width: 100%;
+    float: left;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+.form-group {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+    display: flex;
+}
+
+.form-group label {
+    width: 50%;
+    float: left;
+    line-height: 39px;
+}
+
+.form-group input {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+#btnSubmit {
+    padding: 5px 10px;
+}
