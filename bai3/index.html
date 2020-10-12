@@ -14,27 +14,32 @@
             <fieldset>
                 <legend>Đăng ký</legend>
                 <div class="form-group">
-                    <label for="username">Tên đăng nhập</label>
+                    <label class="label" for="username">Tên đăng nhập</label>
                     <input type="text" name="username" id="username">
                 </div>
+                <span class="error" id="error-username" style="display: none;">Lỗi username</span>
                 <div class="form-group">
-                    <label for="phone">Số điện thoại</label>
+                    <label class="label" for="phone">Số điện thoại</label>
                     <input type="text" name="phone" id="phone">
                 </div>
+                <span class="error" id="error-phone" style="display: none;">Lỗi số điện thoại</span>
                 <div class="form-group">
-                    <label for="email">Email</label>
+                    <label class="label" for="email">Email</label>
                     <input type="email" name="email" id="email">
                 </div>
+                <span class="error" id="error-email" style="display: none;">Lỗi email</span>
                 <div class="form-group">
-                    <label for="password">Mật khẩu</label>
+                    <label class="label" for="password">Mật khẩu</label>
                     <input type="password" name="password" id="password">
                 </div>
+                <span class="error" id="error-password" style="display: none;">Lỗi mật khẩu</span>
                 <div class="form-group">
-                    <label for="re-password">Nhập lại mật khẩu</label>
+                    <label class="label" for="re-password">Nhập lại mật khẩu</label>
                     <input type="password" name="re-password" id="re-password">
                 </div>
+                <span class="error" id="error-re-password" style="display: none;">Lỗi nhập lại mật khẩu</span>
                 <div class="form-group">
-                    <label for="info">Thông tin thêm</label>
+                    <label class="label" for="info">Thông tin thêm</label>
                     <input type="text" name="info" id="info">
                 </div>
                 <input type="submit" value="Gửi" id="btnSubmit">
